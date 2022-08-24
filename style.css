@@ -10,8 +10,15 @@ p {
 
 header {
     font-family: ;
-    display: center;
+    text-align: center;
 }
+
+.date {
+    position: relative;
+    right: 40em;
+}
+
+
 
 li,
 a {
@@ -45,4 +52,10 @@ a:hover {
 
 span {
     display: inline-block;
+}
+
+nav {
+    position: sticky;
+    top: 100px;
+    background-color: white;
 }
